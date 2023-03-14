@@ -16,3 +16,16 @@ h1, th {
 tbody {
     text-align: center;
 }
+
+#citatum {
+    background-color: white;
+    text-align: center;
+    border-top: 5px solid #14A44D;
+    border-bottom: 5px solid #E4A11B;
+    position: fixed;
+    width: 520px;
+    bottom: 135px;
+    right: -95px;
+    transform: rotate(-45deg);
+
+}
