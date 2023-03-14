@@ -10,12 +10,12 @@
 
 const bicycles = document.querySelector('#bicycles');
 const bicyclesArray = [
-    {bicName: "cassis", bicWheel: 28, bicUsage: "offroad", bicPrice: 557900},
-    {bicName: "Alboin 900", bicWheel: 28, bicUsage: "trekking", bicPrice: 519900},
-    {bicName: "Asgard", bicWheel: 29, bicUsage: "technikás utak", bicPrice: 519900},
-    {bicName: "Ruga", bicWheel: 29, bicUsage: "hegyi", bicPrice: 372900},
-    {bicName: "Reptila", bicWheel: 28, bicUsage: "városi", bicPrice: 308900},
-    {bicName: "Sirmium", bicWheel: 29, bicUsage: "hegyi", bicPrice: 264900}
+    {bicName: "cassis", bicWheel: 28, bicUsage: "offroad", bicPrice: 557900 + ".- forint"},
+    {bicName: "Alboin 900", bicWheel: 28, bicUsage: "trekking", bicPrice: 519900 + ".- forint"},
+    {bicName: "Asgard", bicWheel: 29, bicUsage: "technikás utak", bicPrice: 519900 + ".- forint"},
+    {bicName: "Ruga", bicWheel: 29, bicUsage: "hegyi", bicPrice: 372900 + ".- forint"},
+    {bicName: "Reptila", bicWheel: 28, bicUsage: "városi", bicPrice: 308900 + ".- forint"},
+    {bicName: "Sirmium", bicWheel: 29, bicUsage: "hegyi", bicPrice: 264900 + ".- forint"}
 ]
 
 bicyclesArray.forEach((bicycle) => {

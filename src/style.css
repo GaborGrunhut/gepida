@@ -7,3 +7,12 @@
 * Github: https://github.com/GaborGrunhut/gepida.git
 * Licenc: GNU GPL
 */
+
+h1, th {
+    text-align: center;
+    color: white;
+}
+
+tbody {
+    text-align: center;
+}
